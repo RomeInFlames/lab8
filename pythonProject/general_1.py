@@ -8,6 +8,6 @@ if __name__ == "__main__":
     b = str(input())
     for b in a:
         if b in a:
-            count_1 = count_1 + 1
+            count_1 += 1
 
     print("Vowels :", count_1)
